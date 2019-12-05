@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Solway', serif;
+}
+
+body{
+    background: rgb(34, 47, 62); 
+    
+}
+
+.contenedor{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/selective-focus-photography-of-beef-steak-with-sauce-675951.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .color-header{
+        width: 100%;
+        background: rgba(0, 0, 0, 0.541);
+        height: inherit;
+    }
+
+    .div-menu{     
+        height: 10vh;   
+        background: rgba(255, 255, 255, 0);
+    }
+
+    .sub-header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+
+
+        div{
+            width: 50%;
+            height: inherit;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            p{
+                font-size: 25px;
+                color: white;
+            }
+        }
+
+        nav{
+            width: 50%;
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul{
+                list-style: none;
+            }
+
+            a{
+                text-decoration: none;
+                font-size: 19px;
+                padding: 5px ;
+                color: white;
+                font-weight: 500;
+            }
+
+            a:hover{
+                transition:all .1s;
+                border-bottom:3px solid #f9ca24;
+            }
+        }
+    }
+
+    .div-raya{
+        width: 100%;
+        height: 100px;
+        z-index: 10;
+        background: red;
+    
+        hr{
+            width: 20%;
+            height: 200px;
+        }
+    }
+}
+
+
+.div-bienvenida{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    div{
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+
+        h1{
+            font-size: 70px;
+            color: white;
+
+            span{
+                color: rgb(249, 202, 36);
+                border-radius: 5px;
+            }
+        }
+    }
+
+
+}
+
+
+
+
+.seccion-1{
+    width: 100%;
+    height: auto;
+    background: rgb(34, 47, 62);    
+
+    .sec-1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+
+        div{
+            width: 80%;
+            margin: 60px auto;
+            text-align: center;  
+
+            h1{
+                color:white;
+                padding: 0px;
+                font-size: 70px;
+
+                span{
+                    color: rgb(249, 202, 36);
+                }
+            }
+
+            p{
+                padding: 0px;
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.seccion-menu{
+    width: 100%;
+    height: auto;
+    background: rgb(34, 47, 62);  
+    
+    .main-menu{
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+        h1 {
+            font-size: 50px;
+            color: rgb(249, 202, 36);
+        }
+    }
+
+    .main-1{
+        width: 100%;
+        height: auto;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+
+        div{
+            width:550px;
+            margin: 10px auto;
+
+            div{
+                width: 100%;
+                
+                p{
+                    padding: 20px;
+                    font-size: 20px;
+                    color: white;
+                }
+
+                span{
+                    color: rgb(249, 202, 36);
+                }
+            }
+
+            img {
+                width: 80%;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .main-2{
+        width: 100%;
+        height: auto;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+
+        div{
+            width:550px;
+            margin: 10px auto;
+
+            div{
+                width: 100%;
+                
+                p{
+                    padding: 20px;
+                    font-size: 20px;
+                    color: white;
+                }
+
+                span{
+                    color: rgb(249, 202, 36);
+                }
+            }
+
+            img {
+                width: 70%;
+                border-radius: 5px;
+            }
+        }
+    }
+}
