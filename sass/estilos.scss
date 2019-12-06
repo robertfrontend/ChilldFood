@@ -98,7 +98,6 @@ header{
                 width: 100%;
         }
 
-
         h1{
             font-size: 60px;
             color: white;
@@ -106,6 +105,12 @@ header{
 
             @media screen and (max-width:1000px) {
                 font-size: 40px;
+                padding: 20px;
+            }
+
+            @media screen and (max-width:500px) {
+                font-size: 32px;
+                padding: 5px;
             }
 
             span{
@@ -177,8 +182,10 @@ header{
                 color: $negro;
                 padding: 50px;
                 font-size: 50px;
+
                 @media screen and (max-width:600px) {
-                   padding: 0;
+                    font-size: 40px;
+                    padding: 5px;
                 }  
 
                 span{
@@ -205,7 +212,7 @@ header{
         h2{
             padding: 0px;
             color: $negro;
-            
+    
         }
     }
 }
@@ -213,7 +220,7 @@ header{
 .seccion-menu{
     width: 100%;
     height: auto;
-    background: white;  
+    background-color: $negro;
     
     .main-menu{
         width: 100%;
@@ -221,12 +228,10 @@ header{
         text-align: center;
 
         div{
-            background-color: $negro;
             
             h1 {
                 font-size: 50px;
-                color:yellow;
-               
+                color:yellow;  
             }
         }
     }
@@ -252,6 +257,11 @@ header{
                     padding: 20px;
                     font-size: 20px;
                     color:white;
+                    
+                    @media screen and (max-width:450px) {
+                        padding: 5px;
+                        font-size: 18px;
+                    }
                 }
 
                 span{
