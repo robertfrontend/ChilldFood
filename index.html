@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mango Food RD</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
 </head>
@@ -12,26 +13,35 @@
 
     <header>
         <div class="color-header">
-            <div class="div-menu">
-                <div class="contenedor">
-                    <div class="sub-header">
-                        <div class="div-logo">
-                            <p>Mango Food RD</p>
-                        </div>
-                        <nav class="menu">
-                            <ul>
-                                <li>
-                                    <a href="">Inicio</a>
-                                    <a href="">Menu</a>
-                                    <a href="">Galeria</a>
-                                    <a href="">Contactos</a>
-                                    <a href="">Nosotros</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <!-- <div class="container"> -->
+                    <a class="navbar-brand" href="#">
+                        MangoFood
+                    </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Reservar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Clientes</a>
+                      </li>
+                  </ul>
+                    <a class="nav-link" href="">
+                            <button type="button" class="btn btn-outline-warning">Preguntas</button>
+                    </a>
                 </div>
-            </div>
+            <!-- </div> -->
+              </nav>
 
             <div class="contenedor">
                 <div class="div-bienvenida">
@@ -41,12 +51,17 @@
                             lo mas sabroso del
                             Sur.  
                         </h1> 
+                        <div class="div-boton">
+                            <a href="#s-1">
+                                <button 
+                                type="button" 
+                                class="btn btn-lg btn-warning">
+                                    Reservar aqui
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="div-boton">
-                    <a href="#s-1">Reservar</a>
-                    <a href="#menu">Ver Menu</a>
             </div>
             <div class="div-raya">
                     <a href="#s-1">
@@ -55,24 +70,6 @@
             </div>
         </div>
     </header>
-
-    <section class="seccion-1" id="s-1">
-            <div class="contenedor">
-                <div class="sec-1">
-                    <div>
-                        <h1>
-                            Lo mas sabroso de 
-                            la <br> region <span>sur.</span>
-                        </h1>
-                        <br>
-                        <h2>
-                            Reserva ya
-                        </h2>
-                            <a href="#">Aqui</a>
-                    </div>
-                </div>
-            </div>
-    </section>
 
     <section class="seccion-menu" id="menu">
         <div class="main-menu">
@@ -152,5 +149,93 @@
         </div>
     </section>
 
+    <section class="seccion-1" id="s-1">
+            <div class="contenedor">
+                <div class="sec-1">
+                    <div>
+                        <h1>
+                            Lo mas sabroso de 
+                            la region <span>sur.</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="div-reserva">
+                        <h2>
+                            Reserva aqui
+                        </h2>
+                    <div class="">
+                        <a href="">
+                            <img src="./images/005-whatsapp.png" alt="">
+                        </a> 
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- <section class="seccion-3">
+        <div class="container">
+            <div class="sub-sec-3">
+                    <div class="accordion" id="accordionExample">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Collapsible Group Item #1
+                                  </button>
+                                </h2>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Collapsible Group Item #2
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Collapsible Group Item #3
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+                        <!-- <div class="">
+                        <img src="./images/008-twitter.png" alt="">
+                    </div>
+                    <div class="">
+                        <img src="./images/029-instagram.png" alt="">
+                    </div> -->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
