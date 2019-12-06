@@ -26,7 +26,7 @@ $negro:#222f3e;
 @mixin hover-btn{
     transition: all .3s;
     background: $negro;
-    color: yellow;
+    color: rgba(255, 255, 0, 0.781);
     
 }
 
@@ -37,12 +37,12 @@ body{
 }
 
 body::-webkit-scrollbar{
-	width: 10px;
+    width: 5px;
 	background:#343a40;
 }
 
 body::-webkit-scrollbar-thumb{
-    background: #f9ca24;
+    background: #f9cb24f8;
 	border-radius: 5px;
 }
 
@@ -66,6 +66,12 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+    @media screen and (max-width:400px) {
+        background-position:center;
+        background-size: cover;
+    }
+
+
     .color-header{
         width: 100%;
         background: rgba(0, 0, 0, 0.541);
@@ -78,6 +84,13 @@ header{
     background-color: transparent;
     a{
         font-size: 20px;
+        color: rgba(255, 255, 255, 0.897) !important;
+    }
+    span{
+        font-size: 23px !important;
+    }
+    a:hover{
+        color: yellow !important;
     }
 }
 
@@ -89,6 +102,10 @@ header{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+
+    @media screen and (max-width:400px) {
+        height: 60vh;
+    }
 
     div{
         width: 70%;
@@ -153,6 +170,62 @@ header{
         border-radius: 10px;
         box-shadow: 1px 10px 10px rgba(55, 61, 0, 0.616);
     }
+}
+
+.seccion-0{
+    width: 100%;
+    height: auto;
+    .sub-0{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        div{
+            width:540px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items:flex-start;
+            margin: 20px auto;;
+
+            @media screen and (max-width:600px){
+                width: 100%;
+            }
+
+            h1{
+                font-size: 40px;
+                color: $negro;
+                padding: 20px;
+
+                @media screen and (max-width:600px){
+                    font-size: 38px;
+                }
+
+                span{
+                    background-color: $negro;
+                    color: rgb(255, 255, 0);
+                }
+            }
+
+            p{
+                color: $negro;
+                padding: 10px;
+
+                span{
+                    color: rgba(0, 0, 0, 0.795);
+                }
+            }
+
+            img{
+                width: 80%;
+            }
+            
+        }
+    }
+
+
 }
 
 
@@ -312,6 +385,22 @@ header{
                 width: 70%;
                 border-radius: 5px;
             }
+        }
+    }
+}
+
+
+.seccion-tarje{
+    width: 100%;
+    height: auto;
+    
+    .sub-tarje{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .card{
+            margin: 10px auto;
         }
     }
 }
