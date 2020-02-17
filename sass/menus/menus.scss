@@ -1,0 +1,66 @@
+body {
+    overflow-x: hidden;
+}
+.header-menus{
+    width: 100%;
+    height: auto;
+    background: url(../../images/grilled-meat-with-green-ladies-finger-vegetable-on-white-1247677.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    #activar {
+        color: yellow !important;
+        &::after{
+            content: ' 👇';
+        }
+    }
+
+    .color-header {
+        background: rgba(0, 0, 0, 0.534);
+    }
+
+    .div-menus {
+        width: 100%;
+        height: 68vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 60px;
+            color: white;
+            padding: 20px 0px;
+            text-align: center;
+        }
+    }
+}
+
+.seccionMenus-1 {
+    background: #343a40;
+    .divSecMenus-1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+            a{
+                margin: 20px auto;
+                padding: 10px 30px;
+                border: 2px solid yellow;
+                color: white;
+            }
+        }
+    }
+}
