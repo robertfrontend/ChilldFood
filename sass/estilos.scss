@@ -59,7 +59,10 @@ body::-webkit-scrollbar-thumb{
 
 .btn{
     border-radius: 20px;
-
+    padding: 8px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    
     @media screen and (max-width:424px) {
         padding: .2rem 1.0rem;
         font-size: 1.1rem;
@@ -292,56 +295,107 @@ header{
         }
     }
 
-.sub-1{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        div{
-            width:540px;
+    .sub-1{
+            width: 100%;
+            height: auto;
             display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items:flex-start;
-            margin: 20px auto;;
-
-            @media screen and (max-width:600px){
-                width: 100%;
-            }
-
-            h1{
-                font-size: 40px;
-                color: $negro;
-                padding: 20px;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            div{
+                width:540px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:flex-start;
+                margin: 20px auto;;
 
                 @media screen and (max-width:600px){
-                    font-size: 38px;
+                    width: 100%;
                 }
 
-                span{
-                    background-color: $negro;
-                    color: rgb(255, 255, 0);
+                h1{
+                    font-size: 40px;
+                    color: $negro;
+                    padding: 20px;
+
+                    @media screen and (max-width:600px){
+                        font-size: 38px;
+                    }
+
+                    span{
+                        background-color: $negro;
+                        color: rgb(255, 255, 0);
+                    }
                 }
-            }
 
-            p{
-                color: $negro;
-                padding: 10px;
+                p{
+                    color: $negro;
+                    padding: 10px;
 
-                span{
-                    color: rgba(0, 0, 0, 0.795);
+                    span{
+                        color: rgba(0, 0, 0, 0.795);
+                    }
                 }
-            }
 
-            img{
-                width: 80%;
+                img{
+                    width: 80%;
+                }
+                
             }
-            
         }
-    }
+
+        .sub-2{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            div{
+                width:540px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:flex-start;
+                margin: 20px auto;;
+
+                @media screen and (max-width:600px){
+                    width: 100%;
+                }
+
+                h1{
+                    font-size: 40px;
+                    color: $negro;
+                    padding: 20px;
+
+                    @media screen and (max-width:600px){
+                        font-size: 38px;
+                    }
+
+                    span{
+                        background-color: $negro;
+                        color: rgb(255, 255, 0);
+                    }
+                }
+
+                p{
+                    color: $negro;
+                    padding: 10px;
+
+                    span{
+                        color: rgba(0, 0, 0, 0.795);
+                    }
+                }
+
+                img{
+                    width: 80%;
+                }
+                
+            }
+        }
 
 
 }
@@ -539,5 +593,23 @@ header{
             text-align: center;
         }
 
+    }
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: $negro;
+    .div-footer{
+        width: 100%;
+        height: auto;
+        div {
+            padding: 40px 0px;
+            text-align: center;
+        }
+    }
+
+    #btn-reservar {
+        padding: 10px 100px;
     }
 }
