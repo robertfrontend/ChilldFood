@@ -97,4 +97,9 @@ body {
   border: 2px solid yellow;
   color: white;
 }
+
+.seccionMenus-1 .divSecMenus-1 #demo {
+  font-size: 20px;
+  color: red;
+}
 /*# sourceMappingURL=menus.css.map */

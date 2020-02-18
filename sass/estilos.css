@@ -81,6 +81,10 @@ header .color-header {
   background-color: transparent;
 }
 
+.navbar #navbarText {
+  text-align: center;
+}
+
 .navbar a {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.897) !important;
