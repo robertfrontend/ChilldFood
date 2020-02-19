@@ -14,7 +14,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 5px;
+  width: 12px;
   background: #343a40;
 }
 
@@ -694,51 +694,24 @@ header .color-header {
   border-radius: 5px;
 }
 
-.seccion-tarje {
+.seccion-1 {
+  width: 100%;
+  height: auto;
+  background-color: #222f3e;
+}
+
+.seccion-1 .div-sec-1 {
   width: 100%;
   height: auto;
 }
 
-.seccion-tarje .sub-tarje {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.seccion-tarje .sub-tarje .card {
-  margin: 10px auto;
-}
-
-.seccion-3 {
-  width: 100%;
-  height: auto;
-}
-
-.seccion-3 .sub-sec-3 {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.seccion-3 .sub-sec-3 div {
-  width: 100%;
+.seccion-1 .div-sec-1 div {
+  padding: 30px 0px;
   text-align: center;
+}
+
+.seccion-1 #btn-reservar {
+  padding: 10px 50px;
 }
 
 footer {
@@ -750,14 +723,56 @@ footer {
 footer .div-footer {
   width: 100%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 footer .div-footer div {
-  padding: 40px 0px;
+  width: 200px;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .div-footer div h1 {
+  font-size: 25px;
+  color: white;
+}
+
+footer .div-footer div p {
+  color: rgba(255, 255, 255, 0.705);
+}
+
+footer .div-footer div a {
+  color: yellow;
+  text-decoration: underline;
+}
+
+footer .copy {
+  width: 100%;
+  height: auto;
   text-align: center;
 }
 
-footer #btn-reservar {
-  padding: 10px 100px;
+footer .copy p {
+  margin: 0px;
+  color: white;
+}
+
+footer .copy a {
+  color: yellow;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=estilos.css.map */
