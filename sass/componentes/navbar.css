@@ -1,0 +1,26 @@
+.navbar {
+  background-color: transparent;
+}
+
+.navbar #navbarText {
+  text-align: center;
+}
+
+.navbar a {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.897) !important;
+}
+
+.navbar span {
+  font-size: 25px !important;
+}
+
+.navbar #logo {
+  font-size: 28px !important;
+  color: yellow;
+}
+
+.navbar a:hover {
+  color: yellow !important;
+}
+/*# sourceMappingURL=navbar.css.map */

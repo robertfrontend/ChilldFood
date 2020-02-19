@@ -1,5 +1,31 @@
 @charset "UTF-8";
-.header-menus {
+.navbar {
+  background-color: transparent;
+}
+
+.navbar #navbarText {
+  text-align: center;
+}
+
+.navbar a {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.897) !important;
+}
+
+.navbar span {
+  font-size: 25px !important;
+}
+
+.navbar #logo {
+  font-size: 28px !important;
+  color: yellow;
+}
+
+.navbar a:hover {
+  color: yellow !important;
+}
+
+header {
   width: 100%;
   height: 100vh;
   background: url(../../images/table-in-vintage-restaurant-6267.jpg);
@@ -8,15 +34,15 @@
   background-repeat: no-repeat;
 }
 
-.header-menus #activar {
+header #activar {
   color: yellow !important;
 }
 
-.header-menus #activar::after {
+header #activar::after {
   content: ' 👇';
 }
 
-.header-menus .div-reservar {
+header .div-reservar {
   width: 100%;
   height: 70vh;
   display: -webkit-box;
@@ -31,7 +57,7 @@
   text-align: center;
 }
 
-.header-menus .div-reservar h1 {
+header .div-reservar h1 {
   font-size: 60px;
   color: white;
   padding: 20px 0px;

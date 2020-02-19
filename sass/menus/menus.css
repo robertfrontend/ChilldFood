@@ -1,6 +1,28 @@
 @charset "UTF-8";
-body {
-  overflow-x: hidden;
+.navbar {
+  background-color: transparent;
+}
+
+.navbar #navbarText {
+  text-align: center;
+}
+
+.navbar a {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.897) !important;
+}
+
+.navbar span {
+  font-size: 25px !important;
+}
+
+.navbar #logo {
+  font-size: 28px !important;
+  color: yellow;
+}
+
+.navbar a:hover {
+  color: yellow !important;
 }
 
 .header-menus {
@@ -21,7 +43,7 @@ body {
 }
 
 .header-menus .color-header {
-  background: rgba(0, 0, 0, 0.534);
+  background: rgba(0, 0, 0, 0.685);
 }
 
 .header-menus .div-menus {
@@ -50,7 +72,7 @@ body {
 }
 
 .seccionMenus-1 {
-  background: #343a40;
+  background: #222f3e;
 }
 
 .seccionMenus-1 .divSecMenus-1 {

@@ -1,6 +1,5 @@
-body {
-    overflow-x: hidden;
-}
+@import '../componentes/navbar.scss';
+$negro:#222f3e;
 .header-menus{
     width: 100%;
     height: auto;
@@ -17,7 +16,7 @@ body {
     }
 
     .color-header {
-        background: rgba(0, 0, 0, 0.534);
+        background: rgba(0, 0, 0, 0.685);
     }
 
     .div-menus {
@@ -38,7 +37,7 @@ body {
 }
 
 .seccionMenus-1 {
-    background: #343a40;
+    background: $negro;
     .divSecMenus-1{
         width: 100%;
         height: auto;
