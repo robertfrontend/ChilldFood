@@ -117,14 +117,15 @@ header{
         padding: 40px 0px;
         @media screen and (max-width:820px) {
                 width: 100%;
+                text-align: center;
         }
 
         h1{
-            font-size: 65px;
+            font-size: 60px;
             color: white;
 
             @media screen and (max-width:1000px) {
-                font-size: 60px;
+                font-size: 55px;
                 padding: 20px;
             }
 
@@ -153,7 +154,11 @@ header{
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: flex-start;
-    
+        @media screen and (max-width:820px) {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+    }
         a{
             margin: 1% 1%;
         }
@@ -228,7 +233,7 @@ header{
     width: 100%;
     height: auto;
     .sub-0{
-        margin-top: 50px;
+        margin-top: 0px;
         width: 100%;
         height: auto;
         display: flex;
@@ -573,11 +578,13 @@ footer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+
         div {
             width: 200px;
             margin: 20px auto;
             display: flex;
             flex-direction: column;
+
             h1 {
                 font-size: 25px;
                 color: white;
@@ -590,6 +597,12 @@ footer {
             a {
                 color: yellow;
                 text-decoration: underline;
+            }
+        }
+
+        @media screen and(max-width:450px){
+            div{
+                margin: 20px 0px;
             }
         }
     }
