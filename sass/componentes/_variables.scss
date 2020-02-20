@@ -1,3 +1,15 @@
+$negro:#222f3e;
+$amarillo: #f9ca24;
+
+
+@mixin font1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+@mixin font2 {
+    font-family: 'Heebo', sans-serif;
+}
+
 .navbar {
     background-color: transparent;
     // background-color: rgb(255, 145, 0);
@@ -9,16 +21,18 @@
     a{
         font-size: 20px;
         color: rgba(255, 255, 255, 0.897) !important;
+        @include font2;
     }
     span{
         font-size: 25px !important;
     }
 
     #logo{
-        font-size: 28px !important;
-        color: yellow;
+        font-size: 40px !important;
+        color: $amarillo !important;
+        @include font1;
     }
     a:hover{
-        color: yellow !important;
+        color: $amarillo !important;
     }
 }

@@ -9,6 +9,7 @@
 .navbar a {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.897) !important;
+  font-family: 'Heebo', sans-serif;
 }
 
 .navbar span {
@@ -16,11 +17,12 @@
 }
 
 .navbar #logo {
-  font-size: 28px !important;
-  color: yellow;
+  font-size: 40px !important;
+  color: #f9ca24 !important;
+  font-family: 'Indie Flower', cursive;
 }
 
 .navbar a:hover {
-  color: yellow !important;
+  color: #f9ca24 !important;
 }
-/*# sourceMappingURL=navbar.css.map */
+/*# sourceMappingURL=componentes.css.map */

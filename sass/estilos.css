@@ -9,6 +9,7 @@
 .navbar a {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.897) !important;
+  font-family: 'Heebo', sans-serif;
 }
 
 .navbar span {
@@ -16,12 +17,13 @@
 }
 
 .navbar #logo {
-  font-size: 28px !important;
-  color: yellow;
+  font-size: 40px !important;
+  color: #f9ca24 !important;
+  font-family: 'Indie Flower', cursive;
 }
 
 .navbar a:hover {
-  color: yellow !important;
+  color: #f9ca24 !important;
 }
 
 * {
@@ -30,22 +32,22 @@
 }
 
 html {
-  font-family: 'Solway', serif;
   scroll-behavior: auto;
   scroll-behavior: smooth;
 }
 
 body {
   background: white;
+  font-family: 'Indie Flower', cursive;
 }
 
 body::-webkit-scrollbar {
   width: 12px;
-  background: #343a40;
+  background: #222f3e;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #f9cb24f8;
+  background: #f9ca24;
   border-radius: 5px;
 }
 
@@ -62,10 +64,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn {
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 8px 40px;
   font-size: 16px;
   font-weight: bold;
+  font-family: 'Heebo', sans-serif;
 }
 
 @media screen and (max-width: 424px) {
@@ -122,7 +125,7 @@ header .color-header {
 }
 
 .div-bienvenida div {
-  width: 100%;
+  width: 75%;
   height: auto;
   text-align: left;
   padding: 40px 0px;
@@ -248,7 +251,7 @@ header .color-header {
 }
 
 .seccion-horario h1 {
-  color: yellow;
+  color: #f9ca24;
 }
 
 @media screen and (max-width: 512px) {
@@ -347,7 +350,6 @@ header .color-header {
 .seccion-0 .sub-0 div h1 {
   font-size: 40px;
   color: #222f3e;
-  padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -358,12 +360,12 @@ header .color-header {
 
 .seccion-0 .sub-0 div h1 span {
   background-color: #222f3e;
-  color: yellow;
+  color: #f9ca24;
 }
 
 .seccion-0 .sub-0 div p {
   color: #222f3e;
-  padding: 10px;
+  font-size: 18px;
 }
 
 .seccion-0 .sub-0 div p span {
@@ -417,7 +419,6 @@ header .color-header {
 .seccion-0 .sub-1 div h1 {
   font-size: 40px;
   color: #222f3e;
-  padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -428,12 +429,12 @@ header .color-header {
 
 .seccion-0 .sub-1 div h1 span {
   background-color: #222f3e;
-  color: yellow;
+  color: #f9ca24;
 }
 
 .seccion-0 .sub-1 div p {
   color: #222f3e;
-  padding: 10px;
+  font-size: 18px;
 }
 
 .seccion-0 .sub-1 div p span {
@@ -487,7 +488,6 @@ header .color-header {
 .seccion-0 .sub-2 div h1 {
   font-size: 40px;
   color: #222f3e;
-  padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -498,12 +498,12 @@ header .color-header {
 
 .seccion-0 .sub-2 div h1 span {
   background-color: #222f3e;
-  color: yellow;
+  color: #f9ca24;
 }
 
 .seccion-0 .sub-2 div p {
   color: #222f3e;
-  padding: 10px;
+  font-size: 18px;
 }
 
 .seccion-0 .sub-2 div p span {
@@ -607,7 +607,7 @@ header .color-header {
 
 .seccion-menu .main-menu div h1 {
   font-size: 50px;
-  color: yellow;
+  color: #f9ca24;
 }
 
 .seccion-menu .main-1 {
@@ -771,7 +771,7 @@ footer .div-footer div p {
 }
 
 footer .div-footer div a {
-  color: yellow;
+  color: #f9ca24;
   text-decoration: underline;
 }
 
@@ -793,7 +793,7 @@ footer .copy p {
 }
 
 footer .copy a {
-  color: yellow;
+  color: #f9ca24;
   text-decoration: underline;
 }
 /*# sourceMappingURL=estilos.css.map */
