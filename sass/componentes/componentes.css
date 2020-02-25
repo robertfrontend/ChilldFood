@@ -25,4 +25,21 @@
 .navbar a:hover {
   color: #f9ca24 !important;
 }
+
+.btn {
+  border-radius: 10px;
+  padding: 8px 40px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif;
+}
+
+@media screen and (max-width: 424px) {
+  .btn {
+    padding: .2rem 1.0rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    border-radius: 18px;
+  }
+}
 /*# sourceMappingURL=componentes.css.map */
