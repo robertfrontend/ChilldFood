@@ -41,9 +41,16 @@ $amarillo: #f9ca24;
 .btn{
     border-radius: 10px;
     padding: 8px 40px;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 16px;
     @include font2;
+    color: white !important;
+    background-color: transparent !important;
+    border: 1px solid $amarillo;
+
+    &:hover {
+        background-color: $amarillo !important;
+        color: $negro !important;
+    }
     
     @media screen and (max-width:424px) {
         padding: .2rem 1.0rem;

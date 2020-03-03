@@ -6,10 +6,8 @@
 }
 
 html{
-
     scroll-behavior: auto;
     scroll-behavior: smooth;
-    
 }
 
 
@@ -17,6 +15,7 @@ body{
     // background: rgb(34, 47, 62); 
     background: white;
     @include font1;
+    overflow-x: hidden !important;
 }
 
 body::-webkit-scrollbar{

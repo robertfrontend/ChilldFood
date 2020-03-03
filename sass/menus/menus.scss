@@ -1,4 +1,4 @@
-@import '../../componentes/componentes.scss';
+@import '../componentes/componentes.scss';
 $negro:#222f3e;
 .header-menus{
     width: 100%;
@@ -36,6 +36,10 @@ $negro:#222f3e;
     }
 }
 
+.main {
+    background-color: $negro !important;
+}
+
 .seccionMenus-1 {
     background: $negro;
     .divSecMenus-1{
@@ -65,6 +69,64 @@ $negro:#222f3e;
         #demo {
             font-size: 20px;
             color: rgb(255, 0, 0);
+        }
+    }
+}
+
+.seccionPlatos {
+    width: 100%;
+    height: auto;
+
+    #ensaladas {
+        padding-top: 30px;
+        color: white;
+    }
+    .secPlatos{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        &::-webkit-scrollbar{
+            width: 12px;
+            height: 10px;
+            background:$negro;
+        }
+        
+        &::-webkit-scrollbar-thumb{
+            background: $amarillo;
+            border-radius: 5px;
+        }
+
+        .tarjectPlatos {
+            width: 30%;
+            height: auto;
+            display: inline-block;
+            margin: 0px 10px;
+            flex: 0 0 auto;
+            -webkit-overflow-scrolling: touch;
+            padding: 20px 20px;
+            border-radius: 10px;
+            @media screen and (max-width:600px) {
+                width: 80%;
+            }
+            div {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    font-size: 25px;
+                    color: white;
+                }
+
+                img {
+                    max-width: 100%;
+                }
+            }
         }
     }
 }
