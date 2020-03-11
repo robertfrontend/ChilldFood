@@ -7,7 +7,7 @@
 }
 
 .navbar a {
-  font-size: 20px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.897) !important;
   font-family: 'Heebo', sans-serif;
 }
@@ -28,17 +28,18 @@
 
 .btn {
   border-radius: 10px;
-  padding: 8px 40px;
+  padding: 6px 40px;
   font-size: 16px;
   font-family: 'Heebo', sans-serif;
   color: white !important;
   background-color: transparent !important;
-  border: 1px solid #f9ca24;
+  border: 2px solid #f9ca24;
 }
 
 .btn:hover {
   background-color: #f9ca24 !important;
   color: #222f3e !important;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 424px) {
@@ -48,6 +49,106 @@
     line-height: 1.5;
     border-radius: 18px;
   }
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"), url(https://example.com/MaterialIcons-Regular.woff) format("woff"), url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+
+navbar
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: white;
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.material-icons.md-light {
+  color: white;
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 * {
@@ -76,6 +177,16 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+  /* Lets it scroll lazy */
+}
+
+.scroll-auto {
+  -webkit-overflow-scrolling: auto;
+  /* Stops scrolling immediately */
+}
+
 .contenedor {
   margin-left: 5%;
   margin-right: 5%;
@@ -95,7 +206,7 @@ body::-webkit-scrollbar-thumb {
 header {
   width: 100%;
   height: auto;
-  background: url(../images/selective-focus-photography-of-beef-steak-with-sauce-675951.jpg);
+  background: url(../images/food-dinner-lunch-unhealthy-70497.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -112,6 +223,16 @@ header .color-header {
   width: 100%;
   background: rgba(0, 0, 0, 0.596);
   height: inherit;
+}
+
+#icono-menu {
+  font-size: 0px;
+}
+
+@media screen and (max-width: 990px) {
+  #icono-menu {
+    font-size: 40px;
+  }
 }
 
 .div-bienvenida {
@@ -340,12 +461,12 @@ header .color-header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 20px auto;
 }
 
@@ -381,7 +502,7 @@ header .color-header {
 }
 
 .seccion-0 .sub-0 div img {
-  width: 80%;
+  width: 100%;
 }
 
 .seccion-0 .sub-1 {
@@ -409,12 +530,12 @@ header .color-header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 20px auto;
 }
 
@@ -450,7 +571,7 @@ header .color-header {
 }
 
 .seccion-0 .sub-1 div img {
-  width: 80%;
+  width: 100%;
 }
 
 .seccion-0 .sub-2 {
@@ -478,12 +599,12 @@ header .color-header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 20px auto;
 }
 
@@ -519,7 +640,7 @@ header .color-header {
 }
 
 .seccion-0 .sub-2 div img {
-  width: 80%;
+  width: 100%;
 }
 
 .seccion-1 {
@@ -735,6 +856,76 @@ header .color-header {
 
 .seccion-1 #btn-reservar {
   padding: 10px 50px;
+}
+
+.seccionClientes {
+  width: 100%;
+  height: 80vh;
+  background: url(../images/selective-focus-photography-of-beef-steak-with-sauce-675951.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.seccionClientes .color {
+  width: 100%;
+  height: inherit;
+  background: rgba(0, 0, 0, 0.575);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seccionClientes .intro {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.seccionClientes .intro hr {
+  width: 10%;
+  height: 2px;
+  background-color: #f9ca24;
+}
+
+.seccionClientes .intro h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.seccionClientes .secClientes {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.seccionClientes .secClientes .tarjetaClientes {
+  width: 350px;
+  margin: 40px auto;
+}
+
+.seccionClientes .secClientes .tarjetaClientes div p {
+  color: white;
+  line-height: 30px;
+  font-family: 'Heebo', sans-serif;
 }
 
 footer {

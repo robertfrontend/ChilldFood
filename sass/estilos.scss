@@ -28,6 +28,15 @@ body::-webkit-scrollbar-thumb{
 	border-radius: 5px;
 }
 
+
+.scroll-touch {
+    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+  }
+  
+  .scroll-auto {
+    -webkit-overflow-scrolling: auto; /* Stops scrolling immediately */
+  }
+
 .contenedor{
     margin-left: 5%;
     margin-right: 5%;
@@ -36,11 +45,7 @@ body::-webkit-scrollbar-thumb{
         margin-left: 0;
         margin-right: 0;
     }
-
 }
-
-
-
 .m{
     color: white;
 }
@@ -48,7 +53,7 @@ body::-webkit-scrollbar-thumb{
 header{
     width: 100%;
     height: auto;
-    background: url(../images/selective-focus-photography-of-beef-steak-with-sauce-675951.jpg);
+    background: url(../images/food-dinner-lunch-unhealthy-70497.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -57,45 +62,19 @@ header{
         background-position:center;
         background-size: cover;
     }
-
-
     .color-header{
         width: 100%;
         background: rgba(0, 0, 0, 0.596);
         height: inherit;
     }
-
 }
 
-// .navbar {
-//     background-color: transparent;
-//     // background-color: rgb(255, 145, 0);
-
-//     #navbarText{
-//         text-align: center; 
-//     }
-
-//     a{
-//         font-size: 20px;
-//         color: rgba(255, 255, 255, 0.897) !important;
-//         @include font2;
-//     }
-//     span{
-//         font-size: 25px !important;
-//     }
-
-//     #logo{
-//         font-size: 40px !important;
-//         color: $amarillo !important;
-//         @include font1;
-//     }
-//     a:hover{
-//         color: $amarillo !important;
-//     }
-// }
-
-
-
+#icono-menu {
+    font-size: 0px;
+    @media screen and (max-width:990px) {
+        font-size: 40px;
+    }
+}
 .div-bienvenida{
     width: 100%;
     height: 90vh;
@@ -103,10 +82,8 @@ header{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-
     @media screen and (max-width:400px) {
     }
-
     div{
         width: 75%;
         height: auto;
@@ -116,7 +93,6 @@ header{
                 width: 100%;
                 text-align: center;
         }
-
         h1{
             font-size: 60px;
             color: white;
@@ -130,18 +106,15 @@ header{
                 font-size: 50px;
                 padding: 5px;
             }
-
             @media screen and (max-width:520px) {
                 font-size: 32px;
                 padding: 0px;
             }
-
             span{
                 color: rgb(249, 202, 36);
                 border-radius: 5px;
             }
         }
-
     }
 
     .div-boton{
@@ -155,13 +128,11 @@ header{
             width: 100%;
             justify-content: center;
             align-items: center;
-    }
+        }
         a{
             margin: 1% 1%;
         }
     }
-
-
 }
 
 .div-raya{
@@ -170,7 +141,6 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     hr{
         width: 50px;
         height: 10px;
@@ -190,7 +160,6 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     h1{
         color: $amarillo;
 
@@ -203,7 +172,6 @@ header{
         height: auto;
         display: flex;
         flex-direction: row;
-
         div{
             width: 50%;
             height: 50vh;
@@ -211,12 +179,10 @@ header{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
             p{
                 font-size: 22px;
                 color: $negro;
                 font-weight: bold;
-
                 @media screen and (max-width:512px){
                     font-size: 18px;
                     font-weight: initial;
@@ -225,7 +191,6 @@ header{
         }
     }
 }
-
 .seccion-0{
     width: 100%;
     height: auto;
@@ -236,46 +201,37 @@ header{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
         div{
             width:540px;
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
-            align-items:flex-start;
-            margin: 20px auto;;
-
+            justify-content: center;
+            align-items:center;
+            margin: 20px auto;
             @media screen and (max-width:600px){
                 width: 100%;
             }
-
             h1{
                 font-size: 40px;
                 color: $negro;
-
                 @media screen and (max-width:600px){
                     font-size: 38px;
                 }
-
                 span{
                     background-color: $negro;
                     color: $amarillo;
                 }
             }
-
             p{
                 color: $negro;
                 font-size: 18px;
-
                 span{
                     color: rgba(0, 0, 0, 0.795);
                 }
             }
-
             img{
-                width: 80%;
+                width: 100%;
             }
-            
         }
     }
 
@@ -291,41 +247,33 @@ header{
                 width:540px;
                 display: flex;
                 flex-direction: column;
-                justify-content: flex-start;
-                align-items:flex-start;
+                justify-content: center;
+                align-items:center;
                 margin: 20px auto;;
-
                 @media screen and (max-width:600px){
                     width: 100%;
                 }
-
                 h1{
                     font-size: 40px;
                     color: $negro;
-
                     @media screen and (max-width:600px){
                         font-size: 38px;
                     }
-
                     span{
                         background-color: $negro;
                         color: $amarillo;
                     }
                 }
-
                 p{
                     color: $negro;
                     font-size: 18px;
-    
                     span{
                         color: rgba(0, 0, 0, 0.795);
                     }
                 }
-
                 img{
-                    width: 80%;
+                    width: 100%;
                 }
-                
             }
         }
 
@@ -341,8 +289,8 @@ header{
                 width:540px;
                 display: flex;
                 flex-direction: column;
-                justify-content: flex-start;
-                align-items:flex-start;
+                justify-content: center;
+                align-items:center;
                 margin: 20px auto;;
 
                 @media screen and (max-width:600px){
@@ -373,16 +321,12 @@ header{
                 }
 
                 img{
-                    width: 80%;
+                    width: 100%;
                 }
                 
             }
         }
-
-
 }
-
-
 .seccion-1{
     width: 100%;
     height: auto;
@@ -396,7 +340,6 @@ header{
         justify-content: center;
         align-items: center; 
         flex-wrap: wrap;   
-
         div{
             width: 80%;
             margin: 0px auto;
@@ -404,17 +347,14 @@ header{
             @media screen and (max-width:600px) {
                 width: 100%;
             }  
-
             h1{
                 color: $negro;
                 padding: 50px;
                 font-size: 50px;
-
                 @media screen and (max-width:600px) {
                     font-size: 40px;
                     padding: 5px;
                 }  
-
                 span{
                     color: $amarillo;
                 }
@@ -422,14 +362,12 @@ header{
         }
     }
 }
-
 .div-reserva{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-
     div{
         width: 5%;
         margin: 0px 20px;
@@ -439,7 +377,6 @@ header{
         h2{
             padding: 0px;
             color: $negro;
-    
         }
     }
 }
@@ -448,21 +385,17 @@ header{
     width: 100%;
     height: auto;
     background-color: $negro;
-    
     .main-menu{
         width: 100%;
         margin: 0px 0px;
         text-align: center;
-
         div{
-            
             h1 {
                 font-size: 50px;
                 color:$amarillo;  
             }
         }
     }
-
     .main-1{
         width: 100%;
         height: auto;
@@ -472,12 +405,9 @@ header{
         justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
-
         div{
             width:550px;
             margin: 5px auto;
-            
-
             div{
                 width: 100%; 
                 p{
@@ -490,14 +420,11 @@ header{
                         font-size: 18px;
                     }
                 }
-
                 span{
                     color: $amarillo;
                     background: $negro;
                 }
-
             }
-
             img {
                 width: 80%;
                 border-radius: 5px;
@@ -514,21 +441,16 @@ header{
         justify-content: flex-start;
         align-items: center;
         flex-wrap: wrap;
-
         div{
             width:550px;
             margin: 10px auto;
-
             div{
                 width: 100%;
-
-                
                 p{
                     padding: 20px;
                     font-size: 20px;
                     color: white;
                 }
-
                 span{
                     color: $amarillo;
                     background: $negro;
@@ -542,7 +464,6 @@ header{
         }
     }
 }
-
 .seccion-1 {
     width: 100%;
     height: auto;
@@ -561,6 +482,59 @@ header{
     }
 }
 
+.seccionClientes{
+    width: 100%;
+    height: 80vh;
+    background: url(../images/selective-focus-photography-of-beef-steak-with-sauce-675951.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .color {
+        width: 100%;
+        height: inherit;
+        background: rgba(0, 0, 0, 0.575);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro{ 
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        hr {
+            width: 10%;
+            height: 2px;
+            background-color: $amarillo;
+        }
+
+        h1 {
+            color: white;
+            font-size: 40px;
+        }
+    }
+
+    .secClientes {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .tarjetaClientes {
+            width: 350px;
+            margin: 40px auto;
+            div {
+
+                p {
+                    color: white;
+                    line-height: 30px;
+                    @include font2;
+                }
+            }
+        }
+    }
+}
 
 footer {
     width: 100%;
