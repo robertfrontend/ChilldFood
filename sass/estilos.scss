@@ -71,8 +71,14 @@ header{
 
 #icono-menu {
     font-size: 0px;
+    color: white;
     @media screen and (max-width:990px) {
         font-size: 40px;
+
+        &:focus{
+            color: $amarillo;
+        }
+
     }
 }
 .div-bienvenida{
@@ -484,9 +490,9 @@ header{
 
 .seccionClientes{
     width: 100%;
-    height: 80vh;
+    height: auto;
     background: url(../images/selective-focus-photography-of-beef-steak-with-sauce-675951.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
