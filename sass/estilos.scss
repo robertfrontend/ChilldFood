@@ -74,11 +74,6 @@ header{
     color: white;
     @media screen and (max-width:990px) {
         font-size: 40px;
-
-        &:focus{
-            color: $amarillo;
-        }
-
     }
 }
 .div-bienvenida{
