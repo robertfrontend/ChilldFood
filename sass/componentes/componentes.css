@@ -12,6 +12,18 @@
   font-family: 'Heebo', sans-serif;
 }
 
+.navbar a ion-icon {
+  font-size: 0px !important;
+  color: white;
+}
+
+@media screen and (max-width: 995px) {
+  .navbar a ion-icon {
+    font-size: 40px !important;
+    color: white;
+  }
+}
+
 .navbar span {
   font-size: 25px !important;
 }

@@ -22,6 +22,16 @@ $amarillo: #f9ca24;
         font-size: 18px;
         color: rgba(255, 255, 255, 0.897) !important;
         @include font2;
+        ion-icon{
+            font-size: 0px !important;
+            color: white;
+        }
+        @media screen and (max-width:995px){
+            ion-icon{
+                font-size: 40px !important;
+                color: white;
+            }
+        }
     }
     span{
         font-size: 25px !important;

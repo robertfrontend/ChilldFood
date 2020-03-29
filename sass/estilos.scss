@@ -57,7 +57,6 @@ header{
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-
     @media screen and (max-width:400px) {
         background-position:center;
         background-size: cover;
@@ -83,7 +82,7 @@ header{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    @media screen and (max-width:400px) {
+    @media screen and (max-width:600px) {
     }
     div{
         width: 75%;
@@ -92,7 +91,7 @@ header{
         padding: 40px 0px;
         @media screen and (max-width:820px) {
                 width: 100%;
-                text-align: center;
+                text-align: left;
         }
         h1{
             font-size: 60px;
@@ -127,8 +126,6 @@ header{
         align-items: flex-start;
         @media screen and (max-width:820px) {
             width: 100%;
-            justify-content: center;
-            align-items: center;
         }
         a{
             margin: 1% 1%;
@@ -162,7 +159,8 @@ header{
     justify-content: center;
     align-items: center;
     h1{
-        color: $amarillo;
+        color: $negro;
+        @include font2;
 
         @media screen and (max-width:512px){
             font-size: 30px;
@@ -196,12 +194,13 @@ header{
     width: 100%;
     height: auto;
     .sub-0{
-        margin-top: 0px;
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        padding: 20px 0px;
+        margin: 20px 0px;
         div{
             width:540px;
             display: flex;
@@ -284,8 +283,8 @@ header{
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            margin-top: 50px;
-            margin-bottom: 50px;
+            padding: 20px 0px;
+            margin: 20px 0px;
             div{
                 width:540px;
                 display: flex;
@@ -341,6 +340,8 @@ header{
         justify-content: center;
         align-items: center; 
         flex-wrap: wrap;   
+        padding: 20px 0px;
+        margin: 20px 0px;
         div{
             width: 80%;
             margin: 0px auto;
@@ -369,6 +370,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px;
+    margin: 20px 0px;
     div{
         width: 5%;
         margin: 0px 20px;
