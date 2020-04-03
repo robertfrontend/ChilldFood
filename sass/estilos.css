@@ -39,8 +39,8 @@
 }
 
 .btn {
-  border-radius: 10px;
-  padding: 6px 40px;
+  border-radius: 30px;
+  padding: 5px 40px;
   font-size: 16px;
   font-family: 'Heebo', sans-serif;
   color: white !important;
@@ -368,6 +368,49 @@ header .color-header {
           box-shadow: 1px 10px 10px rgba(55, 61, 0, 0.616);
 }
 
+.seccionMia {
+  width: 100%;
+}
+
+.seccionMia .divSecMia {
+  width: 100%;
+  background-color: white;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
+  border-radius: 20px;
+}
+
+.seccionMia .divSecMia div {
+  width: 20%;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px 0px;
+}
+
+.seccionMia .divSecMia div ion-icon {
+  font-size: 50px;
+}
+
+.seccionMia .divSecMia div p {
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+}
+
 .seccion-horario {
   width: 100%;
   height: auto;
@@ -462,7 +505,7 @@ header .color-header {
 }
 
 .seccion-0 .sub-0 div {
-  width: 540px;
+  width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -473,10 +516,12 @@ header .color-header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px auto;
+  margin: 10px auto;
+  padding: 40px 30px;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.007);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.007);
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -488,6 +533,8 @@ header .color-header {
 .seccion-0 .sub-0 div h1 {
   font-size: 40px;
   color: #222f3e;
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -503,7 +550,8 @@ header .color-header {
 
 .seccion-0 .sub-0 div p {
   color: #222f3e;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
 }
 
 .seccion-0 .sub-0 div p span {
@@ -512,6 +560,7 @@ header .color-header {
 
 .seccion-0 .sub-0 div img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .seccion-0 .sub-1 {
@@ -531,7 +580,7 @@ header .color-header {
 }
 
 .seccion-0 .sub-1 div {
-  width: 540px;
+  width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -542,10 +591,12 @@ header .color-header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px auto;
+  margin: 10px auto;
+  padding: 40px 30px;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -557,6 +608,8 @@ header .color-header {
 .seccion-0 .sub-1 div h1 {
   font-size: 40px;
   color: #222f3e;
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -572,7 +625,8 @@ header .color-header {
 
 .seccion-0 .sub-1 div p {
   color: #222f3e;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
 }
 
 .seccion-0 .sub-1 div p span {
@@ -581,6 +635,7 @@ header .color-header {
 
 .seccion-0 .sub-1 div img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .seccion-0 .sub-2 {
@@ -600,7 +655,7 @@ header .color-header {
 }
 
 .seccion-0 .sub-2 div {
-  width: 540px;
+  width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -611,10 +666,12 @@ header .color-header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px auto;
+  margin: 10px auto;
+  padding: 40px 30px;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -626,6 +683,8 @@ header .color-header {
 .seccion-0 .sub-2 div h1 {
   font-size: 40px;
   color: #222f3e;
+  font-weight: bold;
+  font-family: 'Heebo', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -641,7 +700,8 @@ header .color-header {
 
 .seccion-0 .sub-2 div p {
   color: #222f3e;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
 }
 
 .seccion-0 .sub-2 div p span {
@@ -650,6 +710,7 @@ header .color-header {
 
 .seccion-0 .sub-2 div img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .seccion-1 {
