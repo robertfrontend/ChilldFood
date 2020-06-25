@@ -375,31 +375,20 @@ header .color-header {
 .seccionMia .divSecMia {
   width: 100%;
   background-color: white;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  margin: 50px 0px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
+  border-radius: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 50px 0px;
-  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
-          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
-  border-radius: 20px;
 }
 
 .seccionMia .divSecMia div {
-  width: 20%;
-  text-align: center;
-  margin: 0px auto;
-  padding: 10px 0px;
+  width: 200px;
 }
 
 .seccionMia .divSecMia div ion-icon {
@@ -594,8 +583,6 @@ header .color-header {
   margin: 10px auto;
   padding: 40px 30px;
   background-color: white;
-  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
-          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
   border-radius: 20px;
 }
 
@@ -669,8 +656,6 @@ header .color-header {
   margin: 10px auto;
   padding: 40px 30px;
   background-color: white;
-  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
-          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
   border-radius: 20px;
 }
 

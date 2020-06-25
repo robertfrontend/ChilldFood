@@ -155,20 +155,13 @@ header{
     .divSecMia{
         width: 100%;
         background-color: white;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
         margin: 50px 0px;
         box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
         border-radius: 20px;
+        justify-content: center;
+        align-items: center;
         div {
-            width: 20%;
-            text-align: center;
-            margin: 0px auto;
-            padding: 10px 0px;
-            // border-bottom: 2px solid $amarillo;
+            width: 200px;
             ion-icon{
                 font-size: 50px;
             }
@@ -292,7 +285,6 @@ header{
                 margin: 10px auto;
                 padding: 40px 30px;
                 background-color: white;
-                box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
                 border-radius: 20px;
                 @media screen and (max-width:600px){
                     width: 100%;
@@ -317,13 +309,11 @@ header{
                 margin: 10px auto;
                 padding: 40px 30px;
                 background-color: white;
-                box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.164);
                 border-radius: 20px;
 
                 @media screen and (max-width:600px){
                     width: 100%;
                 }
-
                 @include contenidoDiv();
                 
             }
